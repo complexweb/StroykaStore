@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Интернет магазин всяких разных штук, которые окажутся полезными в каждом доме">
+  <title>Документация</title>
+  <link rel="stylesheet" href="assets/css/style.css?_v=20230620173742">
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+  <div class="header__adaptive-menu mobile-menu">
+    <div class="container">
+      <div class="mobile-menu__inner"></div>
+    </div>
+  </div>
+  <div class="header__top header-top">
+    <div class="container">
+      <div class="header-top__row">
+        <div class="header-top__choice-city choice-city _preload-hidden">
+          <button type="button" class="choice-city__btn js-open-popup-btn" data-popup-name="choice-city-popup">
+            <svg class="choice-city__btn-icon">
+              <use xlink:href="assets/img/icons/icons.svg#map-marker20"></use>
+            </svg>
+            <span>Москва</span>
+          </button>
+        </div>
+        <nav class="header-top__menu menu-top _preload-hidden">
+          <ul class="menu-top__list">
+            <li class="menu-top__item menu-top__item--brands">
+              <a href="#" class="menu-top__link">
+                Бренды
+              </a>
+            </li>
+            <li class="menu-top__item">
+              <a href="#" class="menu-top__link">
+                Доставка
+              </a>
+            </li>
+            <li class="menu-top__item">
+              <a href="#" class="menu-top__link">
+                Возврат
+              </a>
+            </li>
+            <li class="menu-top__item menu-top__item--documentation">
+              <a href="#" class="menu-top__link">
+                Документация
+              </a>
+            </li>
+            <li class="menu-top__item">
+              <a href="#" class="menu-top__link">
+                Контакты
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <div class="header__middle header-middle">
+    <div class="container">
+      <div class="header-middle__row">
+        <button type="button" class="header-middle__row-btn burger-btn" aria-label="Меню">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <a href="#" class="logo">
+          <img src="assets/img/logo.svg" alt="Логотип">
+        </a>
+        <div class="header-middle__column">
+          <form action="#" class="header-middle__form search-form">
+            <div class="search-form__input-wrapper search-input">
+              <input type="text" class="search-input__field input" placeholder="Поиск">
+              <button type="submit" class="search-input__submit" aria-label="Найти">
+                <svg>
+                  <use xlink:href="assets/img/icons/icons.svg#search24"></use>
+                </svg>
+              </button>
+            </div>
+          </form>
+          <a href="#" class="header-middle__link catalog-link main-btn main-btn--yellow main-btn--left-icon _preload-hidden">
+            <svg>
+              <use xlink:href="assets/img/icons/icons.svg#menu24"></use>
+            </svg>
+            <span>Каталог</span>
+          </a>
+          <a href="#" class="menu-middle__link menu-middle__link--profile _preload-hidden">
+            <svg>
+              <use xlink:href="assets/img/icons/icons.svg#user24"></use>
+            </svg>
+            <span>Профиль</span>
+          </a>
+          <a href="#" class="menu-middle__link menu-middle__link--orders _preload-hidden">
+            <svg>
+              <use xlink:href="assets/img/icons/icons.svg#order24"></use>
+            </svg>
+            <span>Заказы</span>
+          </a>
+          <a href="#" class="menu-middle__link menu-middle__link--basket" aria-label="Корзина покупок">
+            <svg>
+              <use xlink:href="assets/img/icons/icons.svg#basket24"></use>
+            </svg>
+            <span>Корзина</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="header__bottom header-bottom">
+    <div class="container">
+      <div class="header-bottom__menu menu-bottom">
+        <ul class="menu-bottom__list _preload-hidden">
+          <li class="menu-bottom__item">
+            <a href="#">
+              Акции
+            </a>
+          </li>
+          <li class="menu-bottom__item">
+            <a href="#">
+              Строительные материалы
+            </a>
+          </li>
+          <li class="menu-bottom__item">
+            <a href="#">
+              Керамическая плитка
+            </a>
+          </li>
+          <li class="menu-bottom__item">
+            <a href="#">
+              Краски
+            </a>
+          </li>
+          <li class="menu-bottom__item">
+            <a href="#">
+              Сантехника
+            </a>
+          </li>
+          <li class="menu-bottom__item">
+            <a href="#">
+              Напольные покрытия
+            </a>
+          </li>
+          <li class="menu-bottom__item">
+            <a href="#">
+              Инструменты
+            </a>
+          </li>
+          <li class="menu-bottom__item">
+            <a href="#">
+              Обои
+            </a>
+          </li>
+          <li class="menu-bottom__item">
+            <a href="#">
+              Окна
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="header__adaptive-search js-scroll-padding">
+    <div class="container">
+      <div class="header__adaptive-search-inner">
+      </div>
+    </div>
+  </div>
+</header>
+    <main class="main documentation-page">
+      <div class="container">
+        <ul class="documentation-page__broadcrumbs broadcrumbs">
+          <li>
+            <a href="#">Главная</a>
+          </li>
+          <li>
+            Документация
+          </li>
+        </ul>
+      </div>
+      <section class="documentation-info st-block">
+        <div class="container">
+          <div class="documentation-info__inner">
+            <h1 class="documentation-info__title hero-title page-title">
+              Документация
+            </h1>
+            <div class="documentation-info__row">
+              <div class="documentation-info__item download-document">
+                <div class="download-document__header">
+                  <div class="download-document__header-inner">
+                    <p class="download-document__header-title">
+                      Оферта «Безопасная сделка»
+                    </p>
+                  </div>
+                </div>
+                <p class="download-document__name">
+                  Оферта «Безопасная сделка»
+                </p>
+                <div class="download-document__body">
+                  <span class="download-document__info">
+                    PDF · 10 МБ
+                  </span>
+                  <a href="#" class="download-document__link main-btn main-btn--yellow" download="">Скачать</a>
+                </div>
+              </div>
+              <div class="documentation-info__item download-document">
+                <div class="download-document__header">
+                  <div class="download-document__header-inner">
+                    <p class="download-document__header-title">
+                      Политика конфиденциальности
+                    </p>
+                  </div>
+                </div>
+                <p class="download-document__name">
+                  Политика конфиденциальности
+                </p>
+                <div class="download-document__body">
+                  <span class="download-document__info">
+                    PDF · 10 МБ
+                  </span>
+                  <a href="#" class="download-document__link main-btn main-btn--yellow" download="">Скачать</a>
+                </div>
+              </div>
+              <div class="documentation-info__item download-document">
+                <div class="download-document__header">
+                  <div class="download-document__header-inner">
+                    <p class="download-document__header-title">
+                      Оферта
+                    </p>
+                  </div>
+                </div>
+                <p class="download-document__name">
+                  Оферта доставки
+                </p>
+                <div class="download-document__body">
+                  <span class="download-document__info">
+                    PDF · 10 МБ
+                  </span>
+                  <a href="#" class="download-document__link main-btn main-btn--yellow" download="">Скачать</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+  <div class="container">
+    <div class="footer__top">
+      <div class="footer__col">
+        <a href="#" class="footer__logo" aria-label="Логотип">
+          <img src="assets/img/logo-white.svg" alt="Логотип" class="footer__logo-img">
+        </a>
+        <address class="footer__address">
+          <a href="mailto:info@stroykastore.ru" class="footer__email">
+            info@stroykastore.ru
+          </a>
+          <span class="footer__address-text">
+            Москва, ул. Камушкина 10
+          </span>
+        </address>
+      </div>
+      <div class="footer__col">
+        <ul class="footer__list">
+          <li>
+            <a href="#" class="mod-hover">
+              Личный кабинет
+            </a>
+          </li>
+          <li>
+            <a href="#" class="mod-hover">
+              Заказы
+            </a>
+          </li>
+          <li>
+            <a href="#" class="mod-hover">
+              Избранное
+            </a>
+          </li>
+          <li>
+            <a href="#" class="mod-hover">
+              Корзина
+            </a>
+          </li>
+          <li>
+            <a href="#" class="mod-hover">
+              Каталог
+            </a>
+          </li>
+          <li>
+            <a href="#" class="mod-hover">
+              Акции
+            </a>
+          </li>
+          <li>
+            <a href="#" class="mod-hover">
+              Бренды
+            </a>
+          </li>
+          <li>
+            <a href="#" class="mod-hover">
+              Контакты
+            </a>
+          </li>
+          <li>
+            <a href="#" class="mod-hover">
+              Стать продавцом
+            </a>
+          </li>
+          <li>
+            <a href="#" class="mod-hover">
+              Доставка
+            </a>
+          </li>
+          <li>
+            <a href="#" class="mod-hover">
+              Возврат
+            </a>
+          </li>
+          <li>
+            <a href="#" class="mod-hover">
+              Документация
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p class="footer__copy">
+        © СтройкаСтор
+      </p>
+      <div class="footer__pay">
+        <picture><source srcset="assets/img/icons/visa.webp" type="image/webp"><img src="assets/img/icons/visa.png" alt="Виза" class="visa"></picture>
+        <picture><source srcset="assets/img/icons/mastercard.webp" type="image/webp"><img src="assets/img/icons/mastercard.png" alt="Мастеркард" class="mastercard"></picture>
+        <picture><source srcset="assets/img/icons/maestro.webp" type="image/webp"><img src="assets/img/icons/maestro.png" alt="Маэстро" class="maestro"></picture>
+        <picture><source srcset="assets/img/icons/mir.webp" type="image/webp"><img src="assets/img/icons/mir.png" alt="Мир" class="mir"></picture>
+      </div>
+      <p class="footer__author">
+        Cделано в KRUGLOV STUDIO
+      </p>
+    </div>
+  </div>
+</footer>
+  </div>
+  <div class="popup choice-city-popup js-popup">
+  <div class="popup__table" role="complementary">
+    <div class="popup__table-cell js-popup-area">
+      <div class="popup__window city-popup">
+        <p class="city-popup__title popup-title main-title">
+          Выберите ваш город
+        </p>
+        <form action="#" class="city-popup__form">
+          <div class="city-popup__form-input search-input">
+            <input type="text" class="search-input__field input" placeholder="Поиск" name="select-city">
+            <button type="submit" class="search-input__submit" aria-label="Найти">
+              <svg>
+                <use xlink:href="assets/img/icons/icons.svg#search24"></use>
+              </svg>
+            </button>
+          </div>
+        </form>
+        <ul class="city-popup__list">
+          <li>
+            <a href="#" class="mod-hover" title="Москва">
+              Москва
+            </a>
+          </li>
+          <li>
+            <a href="#" class="mod-hover" title="Екатеринбург">
+              Екатеринбург
+            </a>
+          </li>
+          <li>
+            <a href="#" class="mod-hover" title="Челябинск">
+              Челябинск
+            </a>
+          </li>
+          <li>
+            <a href="#" class="mod-hover" title="Уфа">
+              Уфа
+            </a>
+          </li>
+          <li>
+            <a href="#" class="mod-hover" title="Воронеж">
+              Воронеж
+            </a>
+          </li>
+          <li>
+            <a href="#" class="mod-hover" title="Санкт-Петербург">
+              Санкт-Петербург
+            </a>
+          </li>
+          <li>
+            <a href="#" class="mod-hover" title="Казань">
+              Казань
+            </a>
+          </li>
+          <li>
+            <a href="#" class="mod-hover" title="Самара">
+              Самара
+            </a>
+          </li>
+          <li>
+            <a href="#" class="mod-hover" title="Омск">
+              Омск
+            </a>
+          </li>
+          <li>
+            <a href="#" class="mod-hover" title="Пермь">
+              Пермь
+            </a>
+          </li>
+          <li>
+            <a href="#" class="mod-hover" title="Новосибирск">
+              Новосибирск
+            </a>
+          </li>
+          <li>
+            <a href="#" class="mod-hover" title="Нижний Новгород">
+              Нижний Новгород
+            </a>
+          </li>
+          <li>
+            <a href="#" class="mod-hover" title="Ростов-на-Дону">
+              Ростов-на-Дону
+            </a>
+          </li>
+          <li>
+            <a href="#" class="mod-hover" title="Красноярск">
+              Красноярск
+            </a>
+          </li>
+          <li>
+            <a href="#" class="mod-hover" title="Волгоград">
+              Волгоград
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <button class="popup__close js-popup-close" aria-label="Закрыть окно выбора города"></button>
+</div>
+  <div class="popup enter-site-popup js-popup">
+  <div class="popup__table" role="complementary">
+    <div class="popup__table-cell js-popup-area">
+      <div class="popup__window enter-popup">
+        <p class="enter-popup__title popup-title main-title">
+          Вход
+        </p>
+        <form class="enter-popup__form js-form-valid" id="enter-form" action="#">
+          <div class="enter-popup__input-block input-block">
+            <label for="enter-email" class="enter-popup__input-label label">
+              E-mail
+            </label>
+            <input type="email" id="enter-email" class="enter-popup__input input js-form-valid-input"
+              placeholder="youmail@mail.com" name="enter-email" autocomplete="on" required>
+          </div>
+          <div class="enter-popup__input-block input-block">
+            <label for="enter-pass" class="enter-popup__input-label label">
+              Пароль
+            </label>
+            <input type="password" id="enter-pass" class="enter-popup__input input js-form-valid-input"
+              placeholder="****************" name="enter-pass" required>
+          </div>
+          <a href="#" class="enter-popup__link link">Забыли пароль?</a>
+          <button type="submit" class="enter-popup__btn main-btn main-btn--yellow js-form-valid-submit">Войти</button>
+        </form>
+        <button type="button" class="enter-popup__btn main-btn js-open-popup-btn"
+          data-popup-name="registration-site-popup">Создать учетную запись</button>
+      </div>
+    </div>
+  </div>
+  <button class="popup__close js-popup-close" aria-label="Закрыть окно входа"></button>
+</div>
+
+
+  <div class="popup registration-site-popup js-popup">
+  <div class="popup__table" role="complementary">
+    <div class="popup__table-cell js-popup-area">
+      <div class="popup__window registration-popup">
+        <p class="registration-popup__title popup-title main-title">
+          Регистрация
+        </p>
+        <form class="registration-popup__form js-form-valid" id="registration-form" action="#">
+          <div class="registration-popup__grid">
+            <div class="registration-popup__input-block input-block">
+              <label for="registration-name" class="registration-popup__input-label label">
+                Имя
+              </label>
+              <input type="text" name="registration-name" id="registration-name" class="registration-popup__input input js-form-valid-input"
+                placeholder="Богдан" autocomplete="on" required>
+            </div>
+            <div class="registration-popup__input-block input-block">
+              <label for="registration-email" class="registration-popup__input-label label">
+                E-mail
+              </label>
+              <input type="email" name="registration-email" id="registration-email" class="registration-popup__input input js-form-valid-input"
+                placeholder="youmail@mail.com" autocomplete="on" required>
+            </div>
+            <div class="registration-popup__input-block input-block">
+              <label for="registration-pass" class="registration-popup__input-label label">
+                Пароль
+              </label>
+              <input type="password" name="registration-pass" id="registration-pass" class="registration-popup__input input js-form-valid-pass"
+                placeholder="****************" required>
+            </div>
+            <div class="registration-popup__input-block input-block">
+              <label for="confirm-pass" class="registration-popup__input-label label">
+                Подтверждение пароля
+              </label>
+              <input type="password" name="confirm-pass" id="confirm-pass"
+                class="registration-popup__input input js-form-valid-confirm-pass" placeholder="****************"
+                required>
+            </div>
+          </div>
+          <button type="submit"
+            class="registration-popup__btn main-btn main-btn--yellow js-form-valid-submit">Войти</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <button class="popup__close js-popup-close" aria-label="Закрыть окно регистрации"></button>
+</div>
+  <div class="popup add-basket-site-popup js-popup">
+  <div class="popup__table" role="complementary">
+    <div class="popup__table-cell js-popup-area">
+      <div class="popup__window add-basket-popup">
+        <p class="add-basket-popup__title popup-title main-title">
+          Товар добавлен в корзину
+        </p>
+        <div class="add-basket-popup__grid">
+          <section class="add-basket-popup__item horizontal-product">
+            <div class="horizontal-product__img-block">
+              <picture><source srcset="assets/img/temp/popups/add-basket-popup/product-1.webp" type="image/webp"><img src="assets/img/temp/popups/add-basket-popup/product-1.jpg" alt="Плита OSB-3 Kronospan 2500 х 1250 х 9 мм, хвойные породы - изображение"></picture>
+            </div>
+            <h4 class="horizontal-product__name">
+              Плита OSB-3 Kronospan 2500 х 1250 х 9 мм, хвойные породы
+            </h4>
+            <div class="horizontal-product__price currency">
+              995
+            </div>
+            <div class="horizontal-product__quantity">
+              2 шт.
+            </div>
+          </section>
+        </div>
+        <div class="add-basket-popup__btns-block">
+          <a href="#" class="add-basket-popup__link main-btn main-btn--yellow">
+            Перейти в корзину
+          </a>
+          <a href="#" class="add-basket-popup__link main-btn">
+            Продолжить покупки
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button class="popup__close js-popup-close" aria-label="Закрыть окно"></button>
+</div>
+  <div class="popup pay-error-site-popup js-popup">
+  <div class="popup__table" role="complementary">
+    <div class="popup__table-cell js-popup-area">
+      <div class="popup__window message-popup">
+        <p class="message-popup__title popup-title main-title">
+          Ошибка
+        </p>
+        <p class="popup__text">
+          Проблема с оплатой. Обратитесь за помощью к менеджеру
+        </p>
+        <a href="#" class="popup__link main-btn main-btn--yellow">
+          Вернуться в магазин
+        </a>
+      </div>
+    </div>
+  </div>
+  <button class="popup__close js-popup-close" aria-label="Закрыть окно ошибки"></button>
+</div>
+  <div class="popup thanks-site-popup js-popup">
+  <div class="popup__table" role="complementary">
+    <div class="popup__table-cell js-popup-area">
+      <div class="popup__window message-popup">
+        <p class="message-popup__title popup-title main-title">
+          Спасибо за заказ!
+        </p>
+        <p class="popup__text">
+          Скоро с Вами свяжется наш менеджер!
+        </p>
+        <a href="#" class="popup__link main-btn main-btn--yellow">
+          Вернуться в магазин
+        </a>
+      </div>
+    </div>
+  </div>
+  <button class="popup__close js-popup-close" aria-label="Закрыть окно"></button>
+</div>
+  
+  <script src="assets/js/main.js?_v=20230620173742"></script>
+</body>
+
+</html>
